@@ -1,0 +1,12 @@
+gradio
+librosa==0.8.1
+numpy==1.23.5
+opencv-contrib-python>=4.2.0.34
+torch==2.0.1  # Updated from 1.13.1 → 2.0.1
+torchvision==0.15.2
+tqdm==4.66.1
+numba==0.57.1
+ffmpeg
+gfpgan
+pydub
+git+https://github.com/jnordberg/tortoise-tts.git
