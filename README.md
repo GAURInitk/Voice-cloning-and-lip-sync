@@ -1,113 +1,87 @@
-# Voice-cloning-and-lip-sync
-Mentors
+# Voice Cloning and Lip Synchronizer
 
-M Uzzwal
+## Mentors  
+- **M Uzzwal**  
+- **Rahul Bhimkari**  
 
-Rahul Bhimkari
+## Mentees  
+- **Aadharsh Ramachandran**  
+- **Gauri Aggarwal**  
+- **Parihasa K Reddy**  
+- **Utkarsh Shukla**  
 
-Mentees
+## 📌 Aim  
+The project aims to develop a system that generates **realistic speech through voice cloning** and **synchronizes lip movements** with minimal input data. This enables seamless dubbing, virtual avatars, and content creation.  
 
-Aadharsh Ramachandran
+---
 
-Gauri Aggarwal
+## 📖 Introduction and Overview  
+Voice cloning and lip synchronization play a crucial role in AI-driven **content creation, dubbing, and virtual avatars**.  
 
-Parihasa K Reddy
+This project leverages:  
+- **Tortoise TTS** for **zero-shot voice cloning**, requiring only **5-10 seconds** of speaker audio to generate realistic speech.  
+- **Wav2Lip** to synchronize the generated voice with lip movements in videos, ensuring **natural and high-quality speech animation**.  
 
-Utkarsh Shukla
+---
 
-📌 Aim
+## 🛠️ Technologies Used  
 
-The project aims to develop a system that generates realistic speech through voice cloning and synchronizes lip movements with minimal input data. This enables 
+### **Voice Cloning**  
+🔹 **Tortoise TTS** – Zero-shot voice cloning  
 
-seamless dubbing, virtual avatars, and content creation.
+### **Lip Syncing**  
+🔹 **Wav2Lip** – Modifies lip movements to match generated speech  
 
-📖 Introduction and Overview
+### **Frameworks & Libraries**  
+🔹 PyTorch  
+🔹 Gradio 
+🔹 FFmpeg  
 
-Voice cloning and lip synchronization play a crucial role in AI-driven content creation, dubbing, and virtual avatars.
+### **Backend**  
+🔹 Flask – Serving the application  
 
-This project leverages:
+### **Evaluation Metrics**  
+🔹 **MOS (Mean Opinion Score)** – Measures speech quality  
+🔹 **SyncNet Scores** – Evaluates lip-sync accuracy  
 
-Tortoise TTS for zero-shot voice cloning, requiring only 5-10 seconds of speaker audio to generate realistic speech.
+---
 
-Wav2Lip to synchronize the generated voice with lip movements in videos, ensuring natural and high-quality speech animation.
+## 📂 Datasets  
+- **Short audio clips (5-10 sec)** of different speakers for training/testing.  
+- **Video samples** to evaluate lip-sync accuracy with cloned speech.  
+- **Open-source datasets** for TTS and lip-syncing models (e.g., LRS2, VoxCeleb).  
 
-🛠️ Technologies Used
+---
 
-Voice Cloning
+## 🏗️ Model and Architecture  
 
-🔹 Tortoise TTS – Zero-shot voice cloning
+### **1️⃣ Tortoise TTS**  
+- Generates **high-quality, expressive speech** from limited data.  
 
+### **2️⃣ Wav2Lip**  
+- Modifies **lip movements** to synchronize with the cloned voice.  
 
+### **3️⃣ Modular Deep Learning Pipeline**  
+✔ **Input audio processing**  
+✔ **TTS-based speech generation**  
+✔ **Lip-syncing using Wav2Lip**  
+✔ **Video output generation**  
 
-Lip Syncing
+---
 
-🔹 Wav2Lip – Modifies lip movements to match generated speech
+## 🎨 Gradio Interface  
+📝 **Input**: Enter text for speech synthesis.  
+🎙️ **Choose Speaker**: Select your preferred voice.  
+📺 **Preview**: View the final synchronized video.  
 
+---
 
+## 🎯 Conclusion  
+This project successfully integrates **zero-shot voice cloning with lip synchronization**, producing **natural and expressive speech-driven animations**.  
 
-Frameworks & Libraries
+✨ It enhances:  
+✅ **AI-based dubbing**  
+✅ **Virtual avatars**  
+✅ **Personalized content creation**  
 
-🔹 PyTorch
-
-🔹 Gradio 🔹 FFmpeg
-
-
-
-Backend
-
-🔹 Flask – Serving the application
-
-
-
-Evaluation Metrics
-
-🔹 MOS (Mean Opinion Score) – Measures speech quality
-
-🔹 SyncNet Scores – Evaluates lip-sync accuracy
-
-
-
-📂 Datasets
-
-Short audio clips (5-10 sec) of different speakers for training/testing.
-
-Video samples to evaluate lip-sync accuracy with cloned speech.
-
-Open-source datasets for TTS and lip-syncing models (e.g., LRS2, VoxCeleb).
-
-🏗️ Model and Architecture
-
-1️⃣ Tortoise TTS
-
-Generates high-quality, expressive speech from limited data.
-
-2️⃣ Wav2Lip
-
-Modifies lip movements to synchronize with the cloned voice.
-
-3️⃣ Modular Deep Learning Pipeline
-
-✔ Input audio processing
-
-✔ TTS-based speech generation
-
-✔ Lip-syncing using Wav2Lip
-
-✔ Video output generation
-
-
-
-🎨 Gradio Interface
-📝 Input: Enter text for speech synthesis.
-🎙️ Choose Speaker: Select your preferred voice.
-📺 Preview: View the final synchronized video.
-
-🎯 Conclusion
-This project successfully integrates zero-shot voice cloning with lip synchronization, producing natural and expressive speech-driven animations.
-
-✨ It enhances:
-✅ AI-based dubbing
-✅ Virtual avatars
-✅ Personalized content creation
-
-🚀 Offering an innovative approach to multimedia generation!
+🚀 Offering an innovative approach to **multimedia generation**!  
